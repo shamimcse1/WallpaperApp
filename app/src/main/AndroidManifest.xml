@@ -17,7 +17,8 @@
         tools:targetApi="31" >
         <activity
             android:name=".presentation.wallpaperView.WallpaperViewActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".presentation.wallpaperList.MainActivity"/>
         <activity
             android:name=".presentation.wallpaperList.MainActivity"
             android:exported="true" >
