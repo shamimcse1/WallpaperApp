@@ -11,7 +11,7 @@ import com.bumptech.glide.Glide
 import com.codercamp.wallpaperapp.R
 import com.codercamp.wallpaperapp.domain.model.ImageLists
 
-class CustomAdapter(private val mList: List<ImageLists>,private val context : Context,private val mListener: OnItemClick ) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+class CustomAdapter(private val mList: List<ImageLists>,private val mListener: OnItemClick ) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
 	override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 		val view = LayoutInflater.from(parent.context)

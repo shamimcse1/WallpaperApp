@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), OnItemClick{
                 binding.recyclerView.hasFixedSize()
                 binding.recyclerView.layoutManager = StaggeredGridLayoutManager(2,
                     LinearLayoutManager.VERTICAL)
-                val adapter = CustomAdapter(it1, this, this)
+                val adapter = CustomAdapter(it1,this)
                 binding.recyclerView.adapter = adapter
             }
 
